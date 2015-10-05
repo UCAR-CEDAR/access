@@ -1,0 +1,9 @@
+.r cedar_authentication_setup
+cedar_authentication_setup
+
+print,'** test successful login'
+test_auth,'pwest','level-42','192.168.0.0'
+
+print,'** test failed login'
+test_auth,'pwest','bd$radec','192.168.0.0'
+
